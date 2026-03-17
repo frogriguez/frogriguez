@@ -1,0 +1,42 @@
+name: Update contribution stats
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # Every Monday at 03:00 UTC
+  workflow_dispatch:        # Allow manual trigger from Actions tab
+
+permissions:
+  contents: write           # Needed to commit stats.json back to the repo
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests python-dateutil
+
+      - name: Generate stats.json
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}      # your GitHub login, e.g. frogriguez
+          GH_ORGS: ${{ secrets.GH_ORGS }}              # comma-separated org names, e.g. org1,org2,org3,org4
+        run: python scripts/collect_stats.py
+
+      - name: Render README sections from stats.json
+        run: python scripts/render_readme.py
+
+      - name: Commit updated stats and README
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.json README.md
+          git diff --cached --quiet || git commit -m "chore: update contribution stats [skip ci]"
+          git push

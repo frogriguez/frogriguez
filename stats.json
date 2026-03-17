@@ -1,0 +1,211 @@
+{
+  "updated_at": "2026-03-17T19:38:34Z",
+  "activity_since": "2025-03-17T19:35:05.258423+00:00",
+  "public": {
+    "repo_count": 11,
+    "repos": [
+      {
+        "name": "frogriguez",
+        "full_name": "frogriguez/frogriguez",
+        "description": "repo for my github profile",
+        "url": "https://github.com/frogriguez/frogriguez",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 13919
+        },
+        "pushed_at": "2026-03-17T19:29:42Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "pmbb-predixcan",
+        "full_name": "frogriguez/pmbb-predixcan",
+        "description": "Run PrediXcan on PMBB V3",
+        "url": "https://github.com/frogriguez/pmbb-predixcan",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Unknown",
+        "languages": {},
+        "pushed_at": "2025-07-16T17:54:59Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "dnanextflow",
+        "full_name": "frogriguez/dnanextflow",
+        "description": "testing for dnanexus nextflow pipelines",
+        "url": "https://github.com/frogriguez/dnanextflow",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 262822,
+          "Nextflow": 103375
+        },
+        "pushed_at": "2024-10-20T21:25:41Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "zachrodriguez.github.io",
+        "full_name": "frogriguez/zachrodriguez.github.io",
+        "description": "",
+        "url": "https://github.com/frogriguez/zachrodriguez.github.io",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "CSS",
+        "languages": {
+          "CSS": 10795,
+          "HTML": 9810,
+          "Ruby": 1415,
+          "Shell": 1087
+        },
+        "pushed_at": "2018-04-19T21:39:16Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "slatesite",
+        "full_name": "frogriguez/slatesite",
+        "description": "",
+        "url": "https://github.com/frogriguez/slatesite",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Ruby",
+        "languages": {
+          "Ruby": 7948,
+          "HTML": 398
+        },
+        "pushed_at": "2018-04-18T23:34:08Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "CompPhylo2015",
+        "full_name": "frogriguez/CompPhylo2015",
+        "description": "Place to store code for Computational Phylogenetics Class 2015",
+        "url": "https://github.com/frogriguez/CompPhylo2015",
+        "stars": 1,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 145542
+        },
+        "pushed_at": "2015-04-22T23:31:38Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "CodeML_Practice",
+        "full_name": "frogriguez/CodeML_Practice",
+        "description": "Repository to Practice CodeML",
+        "url": "https://github.com/frogriguez/CodeML_Practice",
+        "stars": 1,
+        "forks": 0,
+        "primary_lang": "Perl 6",
+        "languages": {
+          "Perl 6": 16956,
+          "Python": 16261
+        },
+        "pushed_at": "2015-02-12T17:36:18Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "Sequences",
+        "full_name": "frogriguez/Sequences",
+        "description": "Place for Messing with Sequencing",
+        "url": "https://github.com/frogriguez/Sequences",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Unknown",
+        "languages": {},
+        "pushed_at": "2015-02-12T04:23:06Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "Tkinter_Practice",
+        "full_name": "frogriguez/Tkinter_Practice",
+        "description": "Practice Tkinter GUI",
+        "url": "https://github.com/frogriguez/Tkinter_Practice",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 8758
+        },
+        "pushed_at": "2015-02-03T03:37:45Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "Phylogenies",
+        "full_name": "frogriguez/Phylogenies",
+        "description": "Practice with Newick",
+        "url": "https://github.com/frogriguez/Phylogenies",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 1707
+        },
+        "pushed_at": "2015-02-03T03:37:31Z",
+        "topics": [],
+        "archived": false
+      },
+      {
+        "name": "Gihub_Notes",
+        "full_name": "frogriguez/Gihub_Notes",
+        "description": "General Github Notes",
+        "url": "https://github.com/frogriguez/Gihub_Notes",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Unknown",
+        "languages": {},
+        "pushed_at": "2015-02-03T03:37:07Z",
+        "topics": [],
+        "archived": false
+      }
+    ]
+  },
+  "private_orgs": {
+    "repos_touched": 28,
+    "total_commits": 541,
+    "lines_added": 7621101,
+    "lines_deleted": 601450,
+    "net_lines": 7019651,
+    "loc_by_lang": {
+      "Python": 2052535,
+      "Nextflow": 1607170,
+      "R": 139853,
+      "Dockerfile": 33399,
+      "JavaScript": 11998,
+      "Awk": 508
+    }
+  },
+  "languages_public_ranked": [
+    {
+      "lang": "Python",
+      "bytes": 449009,
+      "pct": 77.6
+    },
+    {
+      "lang": "Nextflow",
+      "bytes": 103375,
+      "pct": 17.9
+    },
+    {
+      "lang": "Perl 6",
+      "bytes": 16956,
+      "pct": 2.9
+    },
+    {
+      "lang": "Ruby",
+      "bytes": 9363,
+      "pct": 1.6
+    }
+  ]
+}

@@ -27,15 +27,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Private figures are aggregated counts only — no repository names, code, or commit messages are exposed.
 
 <!-- STATS_START -->
-*Last updated: 2026-03-17 · Rolling 12-month window*
+*Last updated: 2026-03-23 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 11 | 28 |
-| **Commits** | — | 541 |
-| **Lines added** | — | 7,621,101 |
-| **Lines deleted** | — | 601,450 |
-| **Net lines** | — | 7,019,651 |
+| **Repos / repos touched** | 11 | 27 |
+| **Commits** | — | 546 |
+| **Lines added** | — | 8,306,929 |
+| **Lines deleted** | — | 742,441 |
+| **Net lines** | — | 7,564,488 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -44,8 +44,8 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 53.4% | `████████████████░░░░░░░░░░░░░░` |
-| Nextflow | 41.8% | `█████████████░░░░░░░░░░░░░░░░░` |
+| Python | 53.6% | `████████████████░░░░░░░░░░░░░░` |
+| Nextflow | 41.6% | `████████████░░░░░░░░░░░░░░░░░░` |
 | R | 3.6% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.9% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.3% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |

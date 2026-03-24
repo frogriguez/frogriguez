@@ -25,6 +25,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 > Covers the **rolling 12 months** across public repos and private organizational repos.
 > Private figures are aggregated counts only — no repository names, code, or commit messages are exposed.
+> Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
 *Last updated: 2026-03-23 · Rolling 12-month window*
@@ -52,11 +53,21 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 <!-- LANG_CHART_END -->
 
+### Breakdown by organization *(rolling 12 months)*
+
+<!-- ORG_BREAKDOWN_START -->
+*Organization breakdown not yet available — will populate on next stats collection.*
+<!-- ORG_BREAKDOWN_END -->
+
 ---
 
 ## Public repositories
 
+> Showing non-archived repositories with activity in the last 3 years, grouped by owner.
+
 <!-- PUBLIC_REPOS_START -->
+#### Personal
+
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
 **Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-17
@@ -72,54 +83,6 @@ Run PrediXcan on PMBB V3
 ### [dnanextflow](https://github.com/frogriguez/dnanextflow)
 testing for dnanexus nextflow pipelines
 **Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2024-10-20
-
----
-
-### [zachrodriguez.github.io](https://github.com/frogriguez/zachrodriguez.github.io)
-*No description.*
-**CSS** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2018-04-19
-
----
-
-### [slatesite](https://github.com/frogriguez/slatesite)
-*No description.*
-**Ruby** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2018-04-18
-
----
-
-### [CompPhylo2015](https://github.com/frogriguez/CompPhylo2015)
-Place to store code for Computational Phylogenetics Class 2015
-**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2015-04-22
-
----
-
-### [CodeML_Practice](https://github.com/frogriguez/CodeML_Practice)
-Repository to Practice CodeML
-**Perl 6** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2015-02-12
-
----
-
-### [Sequences](https://github.com/frogriguez/Sequences)
-Place for Messing with Sequencing
-**Unknown** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2015-02-12
-
----
-
-### [Tkinter_Practice](https://github.com/frogriguez/Tkinter_Practice)
-Practice Tkinter GUI
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2015-02-03
-
----
-
-### [Phylogenies](https://github.com/frogriguez/Phylogenies)
-Practice with Newick
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2015-02-03
-
----
-
-### [Gihub_Notes](https://github.com/frogriguez/Gihub_Notes)
-General Github Notes
-**Unknown** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2015-02-03
 
 <!-- PUBLIC_REPOS_END -->
 

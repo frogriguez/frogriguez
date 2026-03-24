@@ -121,34 +121,61 @@ def commit_stats_for_repo(
 # Public repos
 # ---------------------------------------------------------------------------
 
+def _repo_to_record(repo: dict, owner: str) -> dict:
+    """Convert a GitHub repo object to a stats record."""
+    full  = repo["full_name"]
+    langs = lang_bytes_for_repo(full)
+    primary_lang = max(langs, key=langs.get) if langs else repo.get("language") or "Unknown"
+    return {
+        "name":         repo["name"],
+        "full_name":    full,
+        "description":  repo.get("description") or "",
+        "url":          repo["html_url"],
+        "stars":        repo["stargazers_count"],
+        "forks":        repo["forks_count"],
+        "primary_lang": primary_lang,
+        "languages":    langs,
+        "pushed_at":    repo.get("pushed_at"),
+        "topics":       repo.get("topics", []),
+        "archived":     repo.get("archived", False),
+        "owner":        owner,
+    }
+
+
 def collect_public() -> list[dict]:
     print("Collecting public repos …")
-    repos = paginate(
+    results = []
+
+    # Personal repos
+    personal_repos = paginate(
         f"{API}/users/{USERNAME}/repos",
         {"type": "public", "sort": "pushed"},
     )
-    results = []
-    for repo in repos:
+    for repo in personal_repos:
         if repo.get("fork"):
-            continue   # skip forks — they inflate stats without representing original work
-        full  = repo["full_name"]
-        langs = lang_bytes_for_repo(full)
-        primary_lang = max(langs, key=langs.get) if langs else repo.get("language") or "Unknown"
+            continue
+        results.append(_repo_to_record(repo, "personal"))
+    print(f"  {len(results)} personal public repos")
 
-        results.append({
-            "name":          repo["name"],
-            "full_name":     full,
-            "description":   repo.get("description") or "",
-            "url":           repo["html_url"],
-            "stars":         repo["stargazers_count"],
-            "forks":         repo["forks_count"],
-            "primary_lang":  primary_lang,
-            "languages":     langs,
-            "pushed_at":     repo.get("pushed_at"),
-            "topics":        repo.get("topics", []),
-            "archived":      repo.get("archived", False),
-        })
-    print(f"  {len(results)} public repos found")
+    # Public repos in each org
+    for org in ORGS:
+        print(f"  Collecting public repos for org: {org} …")
+        try:
+            org_repos = paginate(
+                f"{API}/orgs/{org}/repos",
+                {"type": "public", "sort": "pushed"},
+            )
+        except Exception as e:
+            print(f"    Could not list repos for {org}: {e}", file=sys.stderr)
+            continue
+        before = len(results)
+        for repo in org_repos:
+            if repo.get("fork"):
+                continue
+            results.append(_repo_to_record(repo, org))
+        print(f"    {len(results) - before} public repos in {org}")
+
+    print(f"  {len(results)} total public repos found")
     return results
 
 
@@ -159,17 +186,23 @@ def collect_public() -> list[dict]:
 def collect_private_orgs() -> dict:
     """
     Iterate over all repos in each org, sum commit counts and LOC for
-    commits authored by USERNAME. Returns aggregate counts with no
-    per-repo breakdown.
+    commits authored by USERNAME. Returns per-org breakdowns plus an
+    "ALL" aggregate. No per-repo names or commit messages are written.
     """
-    total_commits  = 0
-    total_added    = 0
-    total_deleted  = 0
-    lang_bytes: dict[str, int] = defaultdict(int)
-    repos_touched  = 0
+    all_commits  = 0
+    all_added    = 0
+    all_deleted  = 0
+    all_lang_bytes: dict[str, int] = defaultdict(int)
+    all_repos_touched = 0
+
+    result: dict[str, dict] = {}
 
     for org in ORGS:
         print(f"Scanning org: {org} …")
+        org_commits = org_added = org_deleted = 0
+        org_lang_bytes: dict[str, int] = defaultdict(int)
+        org_repos_touched = 0
+
         try:
             repos = paginate(f"{API}/orgs/{org}/repos", {"type": "all"})
         except Exception as e:
@@ -178,7 +211,6 @@ def collect_private_orgs() -> dict:
 
         for repo in repos:
             full = repo["full_name"]
-            # Check if this user has any commits in this repo
             try:
                 sample = get(
                     f"{API}/repos/{full}/commits",
@@ -189,31 +221,45 @@ def collect_private_orgs() -> dict:
             if not sample:
                 continue
 
-            repos_touched += 1
+            org_repos_touched += 1
             print(f"  Found commits in {full}")
 
-            # Aggregate language bytes
             for lang, nbytes in lang_bytes_for_repo(full).items():
                 if lang not in SKIP_LANGS:
-                    lang_bytes[lang] += nbytes
+                    org_lang_bytes[lang]  += nbytes
+                    all_lang_bytes[lang]  += nbytes
 
-            # Aggregate commit + LOC stats
             n_commits, added, deleted = commit_stats_for_repo(full, USERNAME, SINCE)
-            total_commits  += n_commits
-            total_added    += added
-            total_deleted  += deleted
+            org_commits  += n_commits
+            org_added    += added
+            org_deleted  += deleted
 
-    # Rank languages by total bytes
-    lang_ranked = sorted(lang_bytes.items(), key=lambda x: x[1], reverse=True)
+        all_commits       += org_commits
+        all_added         += org_added
+        all_deleted       += org_deleted
+        all_repos_touched += org_repos_touched
 
-    return {
-        "repos_touched":  repos_touched,
-        "total_commits":  total_commits,
-        "lines_added":    total_added,
-        "lines_deleted":  total_deleted,
-        "net_lines":      total_added - total_deleted,
-        "loc_by_lang":    dict(lang_ranked),
+        org_lang_ranked = sorted(org_lang_bytes.items(), key=lambda x: x[1], reverse=True)
+        result[org] = {
+            "repos_touched": org_repos_touched,
+            "total_commits": org_commits,
+            "lines_added":   org_added,
+            "lines_deleted": org_deleted,
+            "net_lines":     org_added - org_deleted,
+            "loc_by_lang":   dict(org_lang_ranked),
+        }
+
+    all_lang_ranked = sorted(all_lang_bytes.items(), key=lambda x: x[1], reverse=True)
+    result["ALL"] = {
+        "repos_touched": all_repos_touched,
+        "total_commits": all_commits,
+        "lines_added":   all_added,
+        "lines_deleted": all_deleted,
+        "net_lines":     all_added - all_deleted,
+        "loc_by_lang":   dict(all_lang_ranked),
     }
+
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -264,9 +310,10 @@ def main():
     print(f"\nWrote {out_path}")
 
     # Quick sanity print
+    all_summary = private_summary.get("ALL", {})
     print(f"  Public repos:     {len(public_repos)}")
-    print(f"  Private commits:  {private_summary['total_commits']}")
-    print(f"  Private LOC net:  +{private_summary['net_lines']}")
+    print(f"  Private commits:  {all_summary.get('total_commits', 0)}")
+    print(f"  Private LOC net:  +{all_summary.get('net_lines', 0)}")
 
 
 if __name__ == "__main__":

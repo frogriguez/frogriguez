@@ -11,6 +11,8 @@ Reads stats.json and rewrites the tagged sections in README.md:
 import json
 import re
 import sys
+from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 STATS_FILE  = Path("stats.json")
@@ -45,7 +47,7 @@ def replace_section(text: str, tag: str, content: str) -> str:
 # ---------------------------------------------------------------------------
 
 def build_stats_table(stats: dict) -> str:
-    priv  = stats.get("private_orgs", {})
+    priv  = stats.get("private_orgs", {}).get("ALL", stats.get("private_orgs", {}))
     pub   = stats.get("public", {})
     langs = stats.get("languages_public_ranked", [])
 
@@ -71,7 +73,8 @@ def build_stats_table(stats: dict) -> str:
 
 
 def build_lang_chart(stats: dict) -> str:
-    priv_loc = stats.get("private_orgs", {}).get("loc_by_lang", {})
+    priv     = stats.get("private_orgs", {}).get("ALL", stats.get("private_orgs", {}))
+    priv_loc = priv.get("loc_by_lang", {})
     if not priv_loc:
         return "*No language data yet.*"
 
@@ -86,40 +89,91 @@ def build_lang_chart(stats: dict) -> str:
     return "\n".join(lines)
 
 
+def _render_repo_block(repo: dict) -> str:
+    name   = repo["name"]
+    url    = repo["url"]
+    desc   = repo.get("description") or "*No description.*"
+    lang   = repo.get("primary_lang", "Unknown")
+    stars  = repo.get("stars", 0)
+    forks  = repo.get("forks", 0)
+    pushed = (repo.get("pushed_at") or "")[:10]
+    topics = repo.get("topics", [])
+    topic_str = " ".join(f"`{t}`" for t in topics) if topics else ""
+
+    lines = [f"### [{name}]({url})", desc]
+    if topic_str:
+        lines.append(topic_str)
+    lines.append(
+        f"**{lang}** &nbsp;·&nbsp; ★ {stars} &nbsp;·&nbsp; "
+        f"⑂ {forks} &nbsp;·&nbsp; last push {pushed}"
+    )
+    lines.append("")
+    return "\n".join(lines)
+
+
 def build_public_repos(stats: dict) -> str:
     repos = stats.get("public", {}).get("repos", [])
     if not repos:
         return "*No public repositories found.*"
 
-    blocks = []
-    for repo in repos:
-        if repo.get("archived"):
+    now = datetime.now(timezone.utc)
+    cutoff = f"{now.year - 3}-{now.month:02d}-{now.day:02d}"
+
+    active = [
+        r for r in repos
+        if not r.get("archived")
+        and (r.get("pushed_at") or "")[:10] >= cutoff
+    ]
+    if not active:
+        return "*No recently active public repositories.*"
+
+    by_owner: dict[str, list] = defaultdict(list)
+    for repo in active:
+        by_owner[repo.get("owner", "personal")].append(repo)
+
+    sections = []
+    for owner in ["personal"] + sorted(k for k in by_owner if k != "personal"):
+        if owner not in by_owner:
             continue
-        name  = repo["name"]
-        url   = repo["url"]
-        desc  = repo.get("description") or "*No description.*"
-        lang  = repo.get("primary_lang", "Unknown")
-        stars = repo.get("stars", 0)
-        forks = repo.get("forks", 0)
-        pushed = (repo.get("pushed_at") or "")[:10]
+        label = "Personal" if owner == "personal" else owner
+        blocks = [_render_repo_block(r) for r in by_owner[owner]]
+        sections.append(f"#### {label}\n\n" + "\n---\n\n".join(blocks))
 
-        topics = repo.get("topics", [])
-        topic_str = " ".join(f"`{t}`" for t in topics) if topics else ""
+    return "\n\n".join(sections)
 
-        lines = [
-            f"### [{name}]({url})",
-            f"{desc}",
-        ]
-        if topic_str:
-            lines.append(topic_str)
+
+def build_org_breakdown(stats: dict) -> str:
+    org_data = stats.get("private_orgs", {})
+    # Guard against old flat format (pre-refactor stats.json)
+    if not org_data or "ALL" not in org_data:
+        return "*Organization breakdown not yet available — will populate on next stats collection.*"
+
+    lines = [
+        "| Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |",
+        "|---|---|---|---|---|---|",
+    ]
+
+    all_row = org_data.get("ALL", {})
+    lines.append(
+        f"| **ALL** | {fmt_num(all_row.get('repos_touched'))} | "
+        f"{fmt_num(all_row.get('total_commits'))} | "
+        f"{fmt_num(all_row.get('lines_added'))} | "
+        f"{fmt_num(all_row.get('lines_deleted'))} | "
+        f"{fmt_num(all_row.get('net_lines'))} |"
+    )
+
+    for org, data in org_data.items():
+        if org == "ALL":
+            continue
         lines.append(
-            f"**{lang}** &nbsp;·&nbsp; ★ {stars} &nbsp;·&nbsp; "
-            f"⑂ {forks} &nbsp;·&nbsp; last push {pushed}"
+            f"| {org} | {fmt_num(data.get('repos_touched'))} | "
+            f"{fmt_num(data.get('total_commits'))} | "
+            f"{fmt_num(data.get('lines_added'))} | "
+            f"{fmt_num(data.get('lines_deleted'))} | "
+            f"{fmt_num(data.get('net_lines'))} |"
         )
-        lines.append("")
-        blocks.append("\n".join(lines))
 
-    return "\n---\n\n".join(blocks)
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
@@ -130,9 +184,10 @@ def main():
     stats  = load_stats()
     readme = README_FILE.read_text()
 
-    readme = replace_section(readme, "STATS",        build_stats_table(stats))
-    readme = replace_section(readme, "LANG_CHART",   build_lang_chart(stats))
-    readme = replace_section(readme, "PUBLIC_REPOS", build_public_repos(stats))
+    readme = replace_section(readme, "STATS",         build_stats_table(stats))
+    readme = replace_section(readme, "LANG_CHART",    build_lang_chart(stats))
+    readme = replace_section(readme, "ORG_BREAKDOWN", build_org_breakdown(stats))
+    readme = replace_section(readme, "PUBLIC_REPOS",  build_public_repos(stats))
 
     README_FILE.write_text(readme)
     print("README.md updated")

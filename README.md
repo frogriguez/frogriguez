@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-03-24 · Rolling 12-month window*
+*Last updated: 2026-03-30 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
 | **Repos / repos touched** | 46 | 27 |
-| **Commits** | — | 562 |
-| **Lines added** | — | 8,477,365 |
-| **Lines deleted** | — | 597,589 |
-| **Net lines** | — | 7,879,776 |
+| **Commits** | — | 561 |
+| **Lines added** | — | 8,189,477 |
+| **Lines deleted** | — | 597,498 |
+| **Net lines** | — | 7,591,979 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,9 +45,9 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 55.3% | `█████████████████░░░░░░░░░░░░░` |
-| Nextflow | 40.1% | `████████████░░░░░░░░░░░░░░░░░░` |
-| R | 3.4% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Python | 56.6% | `█████████████████░░░░░░░░░░░░░` |
+| Nextflow | 39.0% | `████████████░░░░░░░░░░░░░░░░░░` |
+| R | 3.3% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.8% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.3% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 27 | 562 | 8,477,365 | 597,589 | 7,879,776 |
+| **ALL** | 27 | 561 | 8,189,477 | 597,498 | 7,591,979 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
-| Verma-Lab | 4 | 54 | 416,849 | 1,086 | 415,763 |
+| Verma-Lab | 4 | 55 | 417,035 | 1,087 | 415,948 |
 | drivas-lab | 4 | 40 | 874,107 | 425,827 | 448,280 |
-| PMBB-Informatics-and-Genomics | 18 | 462 | 7,075,100 | 170,561 | 6,904,539 |
+| PMBB-Informatics-and-Genomics | 18 | 460 | 6,787,026 | 170,469 | 6,616,557 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---

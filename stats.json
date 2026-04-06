@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-30T05:20:43Z",
-  "activity_since": "2025-03-30T05:17:02.924021+00:00",
+  "updated_at": "2026-04-06T05:19:53Z",
+  "activity_since": "2025-04-06T05:16:15.510817+00:00",
   "public": {
     "repo_count": 46,
     "repos": [
@@ -15,7 +15,7 @@
         "languages": {
           "Python": 17582
         },
-        "pushed_at": "2026-03-24T23:36:13Z",
+        "pushed_at": "2026-03-30T05:20:44Z",
         "topics": [],
         "archived": false,
         "owner": "personal"
@@ -187,11 +187,12 @@
         "url": "https://github.com/Setia-Verma-Lab/nature_cardiovascular_research_cmvd_gwas",
         "stars": 0,
         "forks": 0,
-        "primary_lang": "R",
+        "primary_lang": "Jupyter Notebook",
         "languages": {
+          "Jupyter Notebook": 22974,
           "R": 3017
         },
-        "pushed_at": "2026-03-09T19:40:39Z",
+        "pushed_at": "2026-04-01T02:41:03Z",
         "topics": [],
         "archived": false,
         "owner": "Setia-Verma-Lab"
@@ -347,6 +348,23 @@
         "owner": "Setia-Verma-Lab"
       },
       {
+        "name": "HCC_Analysis_Plan",
+        "full_name": "Verma-Lab/HCC_Analysis_Plan",
+        "description": "This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis",
+        "url": "https://github.com/Verma-Lab/HCC_Analysis_Plan",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 68946,
+          "Jupyter Notebook": 8427
+        },
+        "pushed_at": "2026-04-03T21:03:40Z",
+        "topics": [],
+        "archived": false,
+        "owner": "Verma-Lab"
+      },
+      {
         "name": "claude-test",
         "full_name": "Verma-Lab/claude-test",
         "description": "",
@@ -378,23 +396,6 @@
           "R": 2946
         },
         "pushed_at": "2026-03-03T20:04:01Z",
-        "topics": [],
-        "archived": false,
-        "owner": "Verma-Lab"
-      },
-      {
-        "name": "HCC_Analysis_Plan",
-        "full_name": "Verma-Lab/HCC_Analysis_Plan",
-        "description": "This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis",
-        "url": "https://github.com/Verma-Lab/HCC_Analysis_Plan",
-        "stars": 0,
-        "forks": 0,
-        "primary_lang": "Python",
-        "languages": {
-          "Python": 52903,
-          "Jupyter Notebook": 8427
-        },
-        "pushed_at": "2025-10-07T21:27:29Z",
         "topics": [],
         "archived": false,
         "owner": "Verma-Lab"
@@ -777,10 +778,10 @@
     },
     "Verma-Lab": {
       "repos_touched": 4,
-      "total_commits": 55,
-      "lines_added": 417035,
-      "lines_deleted": 1087,
-      "net_lines": 415948,
+      "total_commits": 56,
+      "lines_added": 417050,
+      "lines_deleted": 1097,
+      "net_lines": 415953,
       "loc_by_lang": {
         "R": 112102,
         "Python": 34430,
@@ -788,43 +789,43 @@
       }
     },
     "drivas-lab": {
-      "repos_touched": 4,
-      "total_commits": 40,
-      "lines_added": 874107,
-      "lines_deleted": 425827,
-      "net_lines": 448280,
+      "repos_touched": 5,
+      "total_commits": 44,
+      "lines_added": 1021189,
+      "lines_deleted": 425839,
+      "net_lines": 595350,
       "loc_by_lang": {
-        "Python": 40687,
+        "Python": 131997,
         "Nextflow": 31875,
         "Dockerfile": 6781
       }
     },
     "PMBB-Informatics-and-Genomics": {
       "repos_touched": 18,
-      "total_commits": 460,
-      "lines_added": 6787026,
-      "lines_deleted": 170469,
-      "net_lines": 6616557,
+      "total_commits": 493,
+      "lines_added": 6793687,
+      "lines_deleted": 176134,
+      "net_lines": 6617553,
       "loc_by_lang": {
-        "Python": 2354873,
-        "Nextflow": 1636982,
+        "Python": 2383120,
+        "Nextflow": 1637566,
         "R": 27751,
-        "Dockerfile": 26618,
+        "Dockerfile": 26915,
         "JavaScript": 11998,
         "Awk": 508
       }
     },
     "ALL": {
-      "repos_touched": 27,
-      "total_commits": 561,
-      "lines_added": 8189477,
-      "lines_deleted": 597498,
-      "net_lines": 7591979,
+      "repos_touched": 28,
+      "total_commits": 599,
+      "lines_added": 8343235,
+      "lines_deleted": 603185,
+      "net_lines": 7740050,
       "loc_by_lang": {
-        "Python": 2429990,
-        "Nextflow": 1674674,
+        "Python": 2549547,
+        "Nextflow": 1675258,
         "R": 139853,
-        "Dockerfile": 33399,
+        "Dockerfile": 33696,
         "JavaScript": 11998,
         "Awk": 508
       }
@@ -833,13 +834,13 @@
   "languages_public_ranked": [
     {
       "lang": "Python",
-      "bytes": 1844773,
-      "pct": 42.8
+      "bytes": 1860816,
+      "pct": 43.0
     },
     {
       "lang": "JavaScript",
       "bytes": 1381091,
-      "pct": 32.0
+      "pct": 31.9
     },
     {
       "lang": "Nextflow",

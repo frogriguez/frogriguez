@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-03-30 · Rolling 12-month window*
+*Last updated: 2026-04-06 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 46 | 27 |
-| **Commits** | — | 561 |
-| **Lines added** | — | 8,189,477 |
-| **Lines deleted** | — | 597,498 |
-| **Net lines** | — | 7,591,979 |
+| **Repos / repos touched** | 46 | 28 |
+| **Commits** | — | 599 |
+| **Lines added** | — | 8,343,235 |
+| **Lines deleted** | — | 603,185 |
+| **Net lines** | — | 7,740,050 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,9 +45,9 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 56.6% | `█████████████████░░░░░░░░░░░░░` |
-| Nextflow | 39.0% | `████████████░░░░░░░░░░░░░░░░░░` |
-| R | 3.3% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Python | 57.8% | `█████████████████░░░░░░░░░░░░░` |
+| Nextflow | 38.0% | `███████████░░░░░░░░░░░░░░░░░░░` |
+| R | 3.2% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.8% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.3% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 27 | 561 | 8,189,477 | 597,498 | 7,591,979 |
+| **ALL** | 28 | 599 | 8,343,235 | 603,185 | 7,740,050 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
-| Verma-Lab | 4 | 55 | 417,035 | 1,087 | 415,948 |
-| drivas-lab | 4 | 40 | 874,107 | 425,827 | 448,280 |
-| PMBB-Informatics-and-Genomics | 18 | 460 | 6,787,026 | 170,469 | 6,616,557 |
+| Verma-Lab | 4 | 56 | 417,050 | 1,097 | 415,953 |
+| drivas-lab | 5 | 44 | 1,021,189 | 425,839 | 595,350 |
+| PMBB-Informatics-and-Genomics | 18 | 493 | 6,793,687 | 176,134 | 6,617,553 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-24
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-30
 
 ---
 
@@ -168,7 +168,7 @@ Workshop Materials for our PSB 2025 Workshop: Command Line to PipeLine
 
 ### [nature_cardiovascular_research_cmvd_gwas](https://github.com/Setia-Verma-Lab/nature_cardiovascular_research_cmvd_gwas)
 *No description.*
-**R** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-09
+**Jupyter Notebook** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-01
 
 ---
 
@@ -228,6 +228,12 @@ Source code for Endo_RuleBased_Phenotyping
 
 #### Verma-Lab
 
+### [HCC_Analysis_Plan](https://github.com/Verma-Lab/HCC_Analysis_Plan)
+This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-03
+
+---
+
 ### [claude-test](https://github.com/Verma-Lab/claude-test)
 *No description.*
 **Jupyter Notebook** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-11
@@ -237,12 +243,6 @@ Source code for Endo_RuleBased_Phenotyping
 ### [hepatic-fat-gwas](https://github.com/Verma-Lab/hepatic-fat-gwas)
 Investigating sex-specific genetic effects on hepatic fat accumulation and liver health across menopausal status using CT-derived imaging phenotypes from Penn Medicine Biobank
 **Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-03
-
----
-
-### [HCC_Analysis_Plan](https://github.com/Verma-Lab/HCC_Analysis_Plan)
-This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2025-10-07
 
 ---
 

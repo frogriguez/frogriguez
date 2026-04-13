@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-04-06 · Rolling 12-month window*
+*Last updated: 2026-04-13 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
 | **Repos / repos touched** | 46 | 28 |
-| **Commits** | — | 599 |
-| **Lines added** | — | 8,343,235 |
-| **Lines deleted** | — | 603,185 |
-| **Net lines** | — | 7,740,050 |
+| **Commits** | — | 615 |
+| **Lines added** | — | 8,367,515 |
+| **Lines deleted** | — | 604,470 |
+| **Net lines** | — | 7,763,045 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,10 +45,10 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 57.8% | `█████████████████░░░░░░░░░░░░░` |
-| Nextflow | 38.0% | `███████████░░░░░░░░░░░░░░░░░░░` |
-| R | 3.2% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
-| Dockerfile | 0.8% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Python | 58.6% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 37.3% | `███████████░░░░░░░░░░░░░░░░░░░` |
+| R | 3.1% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.3% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 <!-- LANG_CHART_END -->
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 28 | 599 | 8,343,235 | 603,185 | 7,740,050 |
+| **ALL** | 28 | 615 | 8,367,515 | 604,470 | 7,763,045 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
 | Verma-Lab | 4 | 56 | 417,050 | 1,097 | 415,953 |
 | drivas-lab | 5 | 44 | 1,021,189 | 425,839 | 595,350 |
-| PMBB-Informatics-and-Genomics | 18 | 493 | 6,793,687 | 176,134 | 6,617,553 |
+| PMBB-Informatics-and-Genomics | 18 | 509 | 6,817,967 | 177,419 | 6,640,548 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-30
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-06
 
 ---
 
@@ -92,6 +92,12 @@ testing for dnanexus nextflow pipelines
 
 
 #### PMBB-Informatics-and-Genomics
+
+### [NEAT-Plots](https://github.com/PMBB-Informatics-and-Genomics/NEAT-Plots)
+Association Test Manhattan Plotting Package
+**Python** &nbsp;·&nbsp; ★ 2 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-04-10
+
+---
 
 ### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
 saige family toolkit for nextflow pipelines
@@ -141,12 +147,6 @@ repository for exwas meta analysis
 
 ---
 
-### [NEAT-Plots](https://github.com/PMBB-Informatics-and-Genomics/NEAT-Plots)
-Association Test Manhattan Plotting Package
-**Python** &nbsp;·&nbsp; ★ 2 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2025-11-19
-
----
-
 ### [pmbb-nf-toolkit-vep](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-vep)
 Run VEP using Nextflow
 **Unknown** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2025-08-21
@@ -168,7 +168,7 @@ Workshop Materials for our PSB 2025 Workshop: Command Line to PipeLine
 
 ### [nature_cardiovascular_research_cmvd_gwas](https://github.com/Setia-Verma-Lab/nature_cardiovascular_research_cmvd_gwas)
 *No description.*
-**Jupyter Notebook** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-01
+**Jupyter Notebook** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-06
 
 ---
 
@@ -285,7 +285,7 @@ Penn Med LPC Scientific Brain Trust Workshop Materials
 
 ### [pmacs-utils](https://github.com/drivas-lab/pmacs-utils)
 *No description.*
-**Rust** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-03-16
+**Rust** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-04-12
 
 ---
 

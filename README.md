@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-04-13 · Rolling 12-month window*
+*Last updated: 2026-04-20 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 46 | 28 |
-| **Commits** | — | 615 |
-| **Lines added** | — | 8,367,515 |
-| **Lines deleted** | — | 604,470 |
-| **Net lines** | — | 7,763,045 |
+| **Repos / repos touched** | 46 | 27 |
+| **Commits** | — | 629 |
+| **Lines added** | — | 3,855,693 |
+| **Lines deleted** | — | 599,698 |
+| **Net lines** | — | 3,255,995 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,8 +45,8 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 58.6% | `██████████████████░░░░░░░░░░░░` |
-| Nextflow | 37.3% | `███████████░░░░░░░░░░░░░░░░░░░` |
+| Python | 59.4% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 36.5% | `███████████░░░░░░░░░░░░░░░░░░░` |
 | R | 3.1% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.3% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 28 | 615 | 8,367,515 | 604,470 | 7,763,045 |
+| **ALL** | 27 | 629 | 3,855,693 | 599,698 | 3,255,995 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
-| Verma-Lab | 4 | 56 | 417,050 | 1,097 | 415,953 |
+| Verma-Lab | 3 | 54 | 528,562 | 1,050 | 527,512 |
 | drivas-lab | 5 | 44 | 1,021,189 | 425,839 | 595,350 |
-| PMBB-Informatics-and-Genomics | 18 | 509 | 6,817,967 | 177,419 | 6,640,548 |
+| PMBB-Informatics-and-Genomics | 18 | 525 | 2,194,633 | 172,694 | 2,021,939 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-06
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-13
 
 ---
 
@@ -168,7 +168,7 @@ Workshop Materials for our PSB 2025 Workshop: Command Line to PipeLine
 
 ### [nature_cardiovascular_research_cmvd_gwas](https://github.com/Setia-Verma-Lab/nature_cardiovascular_research_cmvd_gwas)
 *No description.*
-**Jupyter Notebook** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-06
+**Jupyter Notebook** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-14
 
 ---
 
@@ -230,7 +230,7 @@ Source code for Endo_RuleBased_Phenotyping
 
 ### [HCC_Analysis_Plan](https://github.com/Verma-Lab/HCC_Analysis_Plan)
 This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-03
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-15
 
 ---
 

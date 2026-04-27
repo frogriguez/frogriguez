@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-04-20 · Rolling 12-month window*
+*Last updated: 2026-04-27 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 46 | 27 |
-| **Commits** | — | 629 |
-| **Lines added** | — | 3,855,693 |
-| **Lines deleted** | — | 599,698 |
-| **Net lines** | — | 3,255,995 |
+| **Repos / repos touched** | 47 | 28 |
+| **Commits** | — | 667 |
+| **Lines added** | — | 4,925,086 |
+| **Lines deleted** | — | 647,445 |
+| **Net lines** | — | 4,277,641 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,11 +45,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 59.4% | `██████████████████░░░░░░░░░░░░` |
-| Nextflow | 36.5% | `███████████░░░░░░░░░░░░░░░░░░░` |
-| R | 3.1% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Python | 58.8% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 37.4% | `███████████░░░░░░░░░░░░░░░░░░░` |
+| R | 2.9% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
-| JavaScript | 0.3% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| JavaScript | 0.2% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 <!-- LANG_CHART_END -->
 
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 27 | 629 | 3,855,693 | 599,698 | 3,255,995 |
+| **ALL** | 28 | 667 | 4,925,086 | 647,445 | 4,277,641 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
-| Verma-Lab | 3 | 54 | 528,562 | 1,050 | 527,512 |
+| Verma-Lab | 4 | 67 | 1,584,772 | 42,405 | 1,542,367 |
 | drivas-lab | 5 | 44 | 1,021,189 | 425,839 | 595,350 |
-| PMBB-Informatics-and-Genomics | 18 | 525 | 2,194,633 | 172,694 | 2,021,939 |
+| PMBB-Informatics-and-Genomics | 18 | 550 | 2,207,816 | 179,086 | 2,028,730 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-13
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-20
 
 ---
 
@@ -93,6 +93,12 @@ testing for dnanexus nextflow pipelines
 
 #### PMBB-Informatics-and-Genomics
 
+### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
+phenotyping pipeline
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-20
+
+---
+
 ### [NEAT-Plots](https://github.com/PMBB-Informatics-and-Genomics/NEAT-Plots)
 Association Test Manhattan Plotting Package
 **Python** &nbsp;·&nbsp; ★ 2 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-04-10
@@ -101,7 +107,7 @@ Association Test Manhattan Plotting Package
 
 ### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
 saige family toolkit for nextflow pipelines
-**Nextflow** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 3 &nbsp;·&nbsp; last push 2026-03-24
+**Nextflow** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-03-24
 
 ---
 
@@ -230,7 +236,7 @@ Source code for Endo_RuleBased_Phenotyping
 
 ### [HCC_Analysis_Plan](https://github.com/Verma-Lab/HCC_Analysis_Plan)
 This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-15
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-23
 
 ---
 

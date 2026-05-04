@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-04-27 · Rolling 12-month window*
+*Last updated: 2026-05-04 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
 | **Repos / repos touched** | 47 | 28 |
-| **Commits** | — | 667 |
-| **Lines added** | — | 4,925,086 |
-| **Lines deleted** | — | 647,445 |
-| **Net lines** | — | 4,277,641 |
+| **Commits** | — | 656 |
+| **Lines added** | — | 4,463,389 |
+| **Lines deleted** | — | 644,772 |
+| **Net lines** | — | 3,818,617 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,8 +45,8 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 58.8% | `██████████████████░░░░░░░░░░░░` |
-| Nextflow | 37.4% | `███████████░░░░░░░░░░░░░░░░░░░` |
+| Python | 59.1% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 37.1% | `███████████░░░░░░░░░░░░░░░░░░░` |
 | R | 2.9% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.2% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 28 | 667 | 4,925,086 | 647,445 | 4,277,641 |
+| **ALL** | 28 | 656 | 4,463,389 | 644,772 | 3,818,617 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
-| Verma-Lab | 4 | 67 | 1,584,772 | 42,405 | 1,542,367 |
+| Verma-Lab | 4 | 66 | 1,364,019 | 40,773 | 1,323,246 |
 | drivas-lab | 5 | 44 | 1,021,189 | 425,839 | 595,350 |
-| PMBB-Informatics-and-Genomics | 18 | 550 | 2,207,816 | 179,086 | 2,028,730 |
+| PMBB-Informatics-and-Genomics | 18 | 540 | 1,966,872 | 178,045 | 1,788,827 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-20
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-27
 
 ---
 
@@ -95,7 +95,7 @@ testing for dnanexus nextflow pipelines
 
 ### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
 phenotyping pipeline
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-20
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-27
 
 ---
 

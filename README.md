@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-05-18 · Rolling 12-month window*
+*Last updated: 2026-05-25 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 47 | 27 |
-| **Commits** | — | 640 |
-| **Lines added** | — | 4,398,598 |
-| **Lines deleted** | — | 644,070 |
-| **Net lines** | — | 3,754,528 |
+| **Repos / repos touched** | 48 | 29 |
+| **Commits** | — | 642 |
+| **Lines added** | — | 4,417,732 |
+| **Lines deleted** | — | 644,285 |
+| **Net lines** | — | 3,773,447 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,10 +45,10 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 57.8% | `█████████████████░░░░░░░░░░░░░` |
-| Nextflow | 38.3% | `███████████░░░░░░░░░░░░░░░░░░░` |
-| R | 2.9% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
-| Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Python | 61.0% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 35.4% | `███████████░░░░░░░░░░░░░░░░░░░` |
+| R | 2.7% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Dockerfile | 0.6% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.2% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 <!-- LANG_CHART_END -->
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 27 | 640 | 4,398,598 | 644,070 | 3,754,528 |
+| **ALL** | 29 | 642 | 4,417,732 | 644,285 | 3,773,447 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
 | Verma-Lab | 4 | 66 | 1,364,019 | 40,773 | 1,323,246 |
 | drivas-lab | 5 | 46 | 1,023,353 | 425,862 | 597,491 |
-| PMBB-Informatics-and-Genomics | 17 | 522 | 1,899,917 | 177,320 | 1,722,597 |
+| PMBB-Informatics-and-Genomics | 19 | 524 | 1,919,051 | 177,535 | 1,741,516 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-11
+**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-18
 
 ---
 
@@ -95,13 +95,19 @@ testing for dnanexus nextflow pipelines
 
 ### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
 phenotyping pipeline
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-11
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-20
 
 ---
 
 ### [NEAT-Plots](https://github.com/PMBB-Informatics-and-Genomics/NEAT-Plots)
 Association Test Manhattan Plotting Package
-**Python** &nbsp;·&nbsp; ★ 2 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-04-10
+**Python** &nbsp;·&nbsp; ★ 2 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-05-20
+
+---
+
+### [pmbb-geno-pheno-toolkit](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit)
+This repository serves as a landing page of our repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:  Links to repos, Example config files, and Set-up instructions
+**Nextflow** &nbsp;·&nbsp; ★ 5 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-19
 
 ---
 
@@ -114,12 +120,6 @@ saige family toolkit for nextflow pipelines
 ### [pmbb-nf-toolkit-plink-2.0-gwas](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas)
 *No description.*
 **Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-24
-
----
-
-### [pmbb-geno-pheno-toolkit](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit)
-This repository serves as a landing page of our repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:  Links to repos, Example config files, and Set-up instructions
-**Nextflow** &nbsp;·&nbsp; ★ 5 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-03-24
 
 ---
 
@@ -288,6 +288,12 @@ Penn Med LPC Scientific Brain Trust Workshop Materials
 
 
 #### drivas-lab
+
+### [ciliaml-releases](https://github.com/drivas-lab/ciliaml-releases)
+Public release-metadata manifest (latest.yaml) for the CiliaML annotator update check. Assets remain on the private drivas-lab/CiliaML release page.
+**Unknown** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-20
+
+---
 
 ### [pmacs-utils](https://github.com/drivas-lab/pmacs-utils)
 *No description.*

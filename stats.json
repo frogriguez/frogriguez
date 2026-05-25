@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-05-18T06:52:10Z",
-  "activity_since": "2025-05-18T06:46:25.955450+00:00",
+  "updated_at": "2026-05-25T07:10:18Z",
+  "activity_since": "2025-05-25T07:04:02.056265+00:00",
   "public": {
-    "repo_count": 47,
+    "repo_count": 48,
     "repos": [
       {
         "name": "frogriguez",
         "full_name": "frogriguez/frogriguez",
         "description": "repo for my github profile",
         "url": "https://github.com/frogriguez/frogriguez",
-        "stars": 0,
+        "stars": 1,
         "forks": 0,
         "primary_lang": "Python",
         "languages": {
           "Python": 17582
         },
-        "pushed_at": "2026-05-11T06:34:56Z",
+        "pushed_at": "2026-05-18T06:52:11Z",
         "topics": [],
         "archived": false,
         "owner": "personal"
@@ -503,6 +503,20 @@
         "owner": "Verma-Lab"
       },
       {
+        "name": "ciliaml-releases",
+        "full_name": "drivas-lab/ciliaml-releases",
+        "description": "Public release-metadata manifest (latest.yaml) for the CiliaML annotator update check. Assets remain on the private drivas-lab/CiliaML release page.",
+        "url": "https://github.com/drivas-lab/ciliaml-releases",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Unknown",
+        "languages": {},
+        "pushed_at": "2026-05-20T19:01:26Z",
+        "topics": [],
+        "archived": false,
+        "owner": "drivas-lab"
+      },
+      {
         "name": "pmacs-utils",
         "full_name": "drivas-lab/pmacs-utils",
         "description": "",
@@ -563,7 +577,7 @@
           "Nextflow": 26401,
           "Dockerfile": 842
         },
-        "pushed_at": "2026-05-11T07:28:54Z",
+        "pushed_at": "2026-05-20T19:53:19Z",
         "topics": [],
         "archived": false,
         "owner": "PMBB-Informatics-and-Genomics"
@@ -577,9 +591,25 @@
         "forks": 1,
         "primary_lang": "Python",
         "languages": {
-          "Python": 208246
+          "Python": 208402
         },
-        "pushed_at": "2026-04-10T14:28:40Z",
+        "pushed_at": "2026-05-20T19:10:22Z",
+        "topics": [],
+        "archived": false,
+        "owner": "PMBB-Informatics-and-Genomics"
+      },
+      {
+        "name": "pmbb-geno-pheno-toolkit",
+        "full_name": "PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit",
+        "description": "This repository serves as a landing page of our repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:  Links to repos, Example config files, and Set-up instructions",
+        "url": "https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit",
+        "stars": 5,
+        "forks": 0,
+        "primary_lang": "Nextflow",
+        "languages": {
+          "Nextflow": 2581
+        },
+        "pushed_at": "2026-05-19T19:42:04Z",
         "topics": [],
         "archived": false,
         "owner": "PMBB-Informatics-and-Genomics"
@@ -614,22 +644,6 @@
           "Nextflow": 37348
         },
         "pushed_at": "2026-03-24T20:03:55Z",
-        "topics": [],
-        "archived": false,
-        "owner": "PMBB-Informatics-and-Genomics"
-      },
-      {
-        "name": "pmbb-geno-pheno-toolkit",
-        "full_name": "PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit",
-        "description": "This repository serves as a landing page of our repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:  Links to repos, Example config files, and Set-up instructions",
-        "url": "https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit",
-        "stars": 5,
-        "forks": 0,
-        "primary_lang": "Nextflow",
-        "languages": {
-          "Nextflow": 2581
-        },
-        "pushed_at": "2026-03-24T19:47:54Z",
         "topics": [],
         "archived": false,
         "owner": "PMBB-Informatics-and-Genomics"
@@ -819,31 +833,31 @@
       }
     },
     "PMBB-Informatics-and-Genomics": {
-      "repos_touched": 17,
-      "total_commits": 522,
-      "lines_added": 1899917,
-      "lines_deleted": 177320,
-      "net_lines": 1722597,
+      "repos_touched": 19,
+      "total_commits": 524,
+      "lines_added": 1919051,
+      "lines_deleted": 177535,
+      "net_lines": 1741516,
       "loc_by_lang": {
-        "Python": 2538191,
-        "Nextflow": 1618251,
+        "Python": 2988235,
+        "Nextflow": 1644741,
         "R": 33072,
-        "Dockerfile": 26915,
+        "Dockerfile": 27757,
         "JavaScript": 11998,
         "Awk": 508
       }
     },
     "ALL": {
-      "repos_touched": 27,
-      "total_commits": 640,
-      "lines_added": 4398598,
-      "lines_deleted": 644070,
-      "net_lines": 3754528,
+      "repos_touched": 29,
+      "total_commits": 642,
+      "lines_added": 4417732,
+      "lines_deleted": 644285,
+      "net_lines": 3773447,
       "loc_by_lang": {
-        "Python": 2870140,
-        "Nextflow": 1900226,
+        "Python": 3320184,
+        "Nextflow": 1926716,
         "R": 145174,
-        "Dockerfile": 33696,
+        "Dockerfile": 34538,
         "JavaScript": 11998,
         "Awk": 508
       }
@@ -852,7 +866,7 @@
   "languages_public_ranked": [
     {
       "lang": "Python",
-      "bytes": 2164177,
+      "bytes": 2164333,
       "pct": 46.0
     },
     {

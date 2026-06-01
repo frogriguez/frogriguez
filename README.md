@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-05-25 · Rolling 12-month window*
+*Last updated: 2026-06-01 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 48 | 29 |
-| **Commits** | — | 642 |
-| **Lines added** | — | 4,417,732 |
-| **Lines deleted** | — | 644,285 |
-| **Net lines** | — | 3,773,447 |
+| **Repos / repos touched** | 48 | 30 |
+| **Commits** | — | 695 |
+| **Lines added** | — | 5,999,305 |
+| **Lines deleted** | — | 649,759 |
+| **Net lines** | — | 5,349,546 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,11 +45,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 61.0% | `██████████████████░░░░░░░░░░░░` |
+| Python | 60.9% | `██████████████████░░░░░░░░░░░░` |
 | Nextflow | 35.4% | `███████████░░░░░░░░░░░░░░░░░░░` |
-| R | 2.7% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
-| Dockerfile | 0.6% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
-| JavaScript | 0.2% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| R | 2.4% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| JavaScript | 0.6% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 <!-- LANG_CHART_END -->
 
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 29 | 642 | 4,417,732 | 644,285 | 3,773,447 |
+| **ALL** | 30 | 695 | 5,999,305 | 649,759 | 5,349,546 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
 | Verma-Lab | 4 | 66 | 1,364,019 | 40,773 | 1,323,246 |
 | drivas-lab | 5 | 46 | 1,023,353 | 425,862 | 597,491 |
-| PMBB-Informatics-and-Genomics | 19 | 524 | 1,919,051 | 177,535 | 1,741,516 |
+| PMBB-Informatics-and-Genomics | 20 | 577 | 3,500,624 | 183,009 | 3,317,615 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-18
+**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-25
 
 ---
 
@@ -95,13 +95,13 @@ testing for dnanexus nextflow pipelines
 
 ### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
 phenotyping pipeline
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-20
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-01
 
 ---
 
 ### [NEAT-Plots](https://github.com/PMBB-Informatics-and-Genomics/NEAT-Plots)
 Association Test Manhattan Plotting Package
-**Python** &nbsp;·&nbsp; ★ 2 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-05-20
+**HTML** &nbsp;·&nbsp; ★ 2 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-05-29
 
 ---
 

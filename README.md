@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-06-01 · Rolling 12-month window*
+*Last updated: 2026-06-08 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
 | **Repos / repos touched** | 48 | 30 |
-| **Commits** | — | 695 |
-| **Lines added** | — | 5,999,305 |
-| **Lines deleted** | — | 649,759 |
-| **Net lines** | — | 5,349,546 |
+| **Commits** | — | 712 |
+| **Lines added** | — | 6,772,774 |
+| **Lines deleted** | — | 610,285 |
+| **Net lines** | — | 6,162,489 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,9 +45,9 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 60.9% | `██████████████████░░░░░░░░░░░░` |
-| Nextflow | 35.4% | `███████████░░░░░░░░░░░░░░░░░░░` |
-| R | 2.4% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Python | 61.5% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 34.9% | `██████████░░░░░░░░░░░░░░░░░░░░` |
+| R | 2.3% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.6% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 30 | 695 | 5,999,305 | 649,759 | 5,349,546 |
+| **ALL** | 30 | 712 | 6,772,774 | 610,285 | 6,162,489 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
 | Verma-Lab | 4 | 66 | 1,364,019 | 40,773 | 1,323,246 |
-| drivas-lab | 5 | 46 | 1,023,353 | 425,862 | 597,491 |
-| PMBB-Informatics-and-Genomics | 20 | 577 | 3,500,624 | 183,009 | 3,317,615 |
+| drivas-lab | 5 | 56 | 1,023,980 | 426,046 | 597,934 |
+| PMBB-Informatics-and-Genomics | 20 | 584 | 4,273,466 | 143,351 | 4,130,115 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-25
+**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-01
 
 ---
 
@@ -93,6 +93,12 @@ testing for dnanexus nextflow pipelines
 
 #### PMBB-Informatics-and-Genomics
 
+### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
+saige family toolkit for nextflow pipelines
+**Python** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-06-05
+
+---
+
 ### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
 phenotyping pipeline
 **Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-01
@@ -108,12 +114,6 @@ Association Test Manhattan Plotting Package
 ### [pmbb-geno-pheno-toolkit](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit)
 This repository serves as a landing page of our repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:  Links to repos, Example config files, and Set-up instructions
 **Nextflow** &nbsp;·&nbsp; ★ 5 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-19
-
----
-
-### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
-saige family toolkit for nextflow pipelines
-**Nextflow** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-03-24
 
 ---
 
@@ -289,15 +289,15 @@ Penn Med LPC Scientific Brain Trust Workshop Materials
 
 #### drivas-lab
 
-### [ciliaml-releases](https://github.com/drivas-lab/ciliaml-releases)
-Public release-metadata manifest (latest.yaml) for the CiliaML annotator update check. Assets remain on the private drivas-lab/CiliaML release page.
-**Unknown** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-20
+### [pmacs-utils](https://github.com/drivas-lab/pmacs-utils)
+*No description.*
+**Rust** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-06-06
 
 ---
 
-### [pmacs-utils](https://github.com/drivas-lab/pmacs-utils)
-*No description.*
-**Rust** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 1 &nbsp;·&nbsp; last push 2026-04-12
+### [ciliaml-releases](https://github.com/drivas-lab/ciliaml-releases)
+Public release-metadata manifest (latest.yaml) for the CiliaML annotator update check. Assets remain on the private drivas-lab/CiliaML release page.
+**Unknown** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-20
 
 ---
 

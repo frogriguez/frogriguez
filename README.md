@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-06-08 · Rolling 12-month window*
+*Last updated: 2026-06-15 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 48 | 30 |
-| **Commits** | — | 712 |
-| **Lines added** | — | 6,772,774 |
-| **Lines deleted** | — | 610,285 |
-| **Net lines** | — | 6,162,489 |
+| **Repos / repos touched** | 49 | 30 |
+| **Commits** | — | 693 |
+| **Lines added** | — | 6,740,258 |
+| **Lines deleted** | — | 609,111 |
+| **Net lines** | — | 6,131,147 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 30 | 712 | 6,772,774 | 610,285 | 6,162,489 |
+| **ALL** | 30 | 693 | 6,740,258 | 609,111 | 6,131,147 |
 | Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
-| Verma-Lab | 4 | 66 | 1,364,019 | 40,773 | 1,323,246 |
-| drivas-lab | 5 | 56 | 1,023,980 | 426,046 | 597,934 |
-| PMBB-Informatics-and-Genomics | 20 | 584 | 4,273,466 | 143,351 | 4,130,115 |
+| Verma-Lab | 4 | 65 | 1,363,939 | 40,707 | 1,323,232 |
+| drivas-lab | 5 | 57 | 1,023,984 | 426,050 | 597,934 |
+| PMBB-Informatics-and-Genomics | 20 | 565 | 4,241,026 | 142,239 | 4,098,787 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-01
+**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-08
 
 ---
 
@@ -95,13 +95,19 @@ testing for dnanexus nextflow pipelines
 
 ### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
 saige family toolkit for nextflow pipelines
-**Python** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-06-05
+**Python** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-06-15
 
 ---
 
 ### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
 phenotyping pipeline
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-01
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-15
+
+---
+
+### [PMBB_Rare_Variant_Extraction](https://github.com/PMBB-Informatics-and-Genomics/PMBB_Rare_Variant_Extraction)
+*No description.*
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-04
 
 ---
 

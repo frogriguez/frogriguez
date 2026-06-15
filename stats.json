@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-08T07:28:06Z",
-  "activity_since": "2025-06-08T07:23:28.959252+00:00",
+  "updated_at": "2026-06-15T08:55:58Z",
+  "activity_since": "2025-06-15T08:49:06.333099+00:00",
   "public": {
-    "repo_count": 48,
+    "repo_count": 49,
     "repos": [
       {
         "name": "frogriguez",
@@ -15,7 +15,7 @@
         "languages": {
           "Python": 17582
         },
-        "pushed_at": "2026-06-01T08:31:50Z",
+        "pushed_at": "2026-06-08T07:28:06Z",
         "topics": [],
         "archived": false,
         "owner": "personal"
@@ -576,7 +576,7 @@
           "Python": 242677,
           "Nextflow": 233018
         },
-        "pushed_at": "2026-06-05T17:53:16Z",
+        "pushed_at": "2026-06-15T08:49:07Z",
         "topics": [],
         "archived": false,
         "owner": "PMBB-Informatics-and-Genomics"
@@ -594,7 +594,26 @@
           "Nextflow": 26401,
           "Dockerfile": 842
         },
-        "pushed_at": "2026-06-01T08:06:01Z",
+        "pushed_at": "2026-06-15T08:19:42Z",
+        "topics": [],
+        "archived": false,
+        "owner": "PMBB-Informatics-and-Genomics"
+      },
+      {
+        "name": "PMBB_Rare_Variant_Extraction",
+        "full_name": "PMBB-Informatics-and-Genomics/PMBB_Rare_Variant_Extraction",
+        "description": "",
+        "url": "https://github.com/PMBB-Informatics-and-Genomics/PMBB_Rare_Variant_Extraction",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 15461,
+          "Nextflow": 2775,
+          "Shell": 1249,
+          "Dockerfile": 443
+        },
+        "pushed_at": "2026-06-04T20:22:17Z",
         "topics": [],
         "archived": false,
         "owner": "PMBB-Informatics-and-Genomics"
@@ -813,10 +832,10 @@
     },
     "Verma-Lab": {
       "repos_touched": 4,
-      "total_commits": 66,
-      "lines_added": 1364019,
-      "lines_deleted": 40773,
-      "net_lines": 1323246,
+      "total_commits": 65,
+      "lines_added": 1363939,
+      "lines_deleted": 40707,
+      "net_lines": 1323232,
       "loc_by_lang": {
         "Nextflow": 223065,
         "Python": 180656,
@@ -825,24 +844,24 @@
     },
     "drivas-lab": {
       "repos_touched": 5,
-      "total_commits": 56,
-      "lines_added": 1023980,
-      "lines_deleted": 426046,
+      "total_commits": 57,
+      "lines_added": 1023984,
+      "lines_deleted": 426050,
       "net_lines": 597934,
       "loc_by_lang": {
-        "Python": 156829,
-        "Nextflow": 60554,
+        "Python": 156765,
+        "Nextflow": 60588,
         "Dockerfile": 6781
       }
     },
     "PMBB-Informatics-and-Genomics": {
       "repos_touched": 20,
-      "total_commits": 584,
-      "lines_added": 4273466,
-      "lines_deleted": 143351,
-      "net_lines": 4130115,
+      "total_commits": 565,
+      "lines_added": 4241026,
+      "lines_deleted": 142239,
+      "net_lines": 4098787,
       "loc_by_lang": {
-        "Python": 3492738,
+        "Python": 3493758,
         "Nextflow": 1889990,
         "Dockerfile": 37697,
         "JavaScript": 34876,
@@ -852,13 +871,13 @@
     },
     "ALL": {
       "repos_touched": 30,
-      "total_commits": 712,
-      "lines_added": 6772774,
-      "lines_deleted": 610285,
-      "net_lines": 6162489,
+      "total_commits": 693,
+      "lines_added": 6740258,
+      "lines_deleted": 609111,
+      "net_lines": 6131147,
       "loc_by_lang": {
-        "Python": 3830223,
-        "Nextflow": 2173609,
+        "Python": 3831179,
+        "Nextflow": 2173643,
         "R": 145174,
         "Dockerfile": 44478,
         "JavaScript": 34876,
@@ -869,17 +888,17 @@
   "languages_public_ranked": [
     {
       "lang": "Python",
-      "bytes": 2371435,
-      "pct": 48.0
+      "bytes": 2386896,
+      "pct": 48.1
     },
     {
       "lang": "JavaScript",
       "bytes": 1403969,
-      "pct": 28.4
+      "pct": 28.3
     },
     {
       "lang": "Nextflow",
-      "bytes": 597450,
+      "bytes": 600225,
       "pct": 12.1
     },
     {
@@ -914,7 +933,7 @@
     },
     {
       "lang": "Dockerfile",
-      "bytes": 842,
+      "bytes": 1285,
       "pct": 0.0
     }
   ]

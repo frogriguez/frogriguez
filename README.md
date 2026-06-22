@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-06-15 · Rolling 12-month window*
+*Last updated: 2026-06-22 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
 | **Repos / repos touched** | 49 | 30 |
-| **Commits** | — | 693 |
-| **Lines added** | — | 6,740,258 |
-| **Lines deleted** | — | 609,111 |
-| **Net lines** | — | 6,131,147 |
+| **Commits** | — | 707 |
+| **Lines added** | — | 6,758,312 |
+| **Lines deleted** | — | 610,839 |
+| **Net lines** | — | 6,147,473 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,8 +45,8 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 61.5% | `██████████████████░░░░░░░░░░░░` |
-| Nextflow | 34.9% | `██████████░░░░░░░░░░░░░░░░░░░░` |
+| Python | 61.6% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 34.8% | `██████████░░░░░░░░░░░░░░░░░░░░` |
 | R | 2.3% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | JavaScript | 0.6% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
@@ -58,11 +58,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 30 | 693 | 6,740,258 | 609,111 | 6,131,147 |
-| Setia-Verma-Lab | 1 | 6 | 111,309 | 115 | 111,194 |
-| Verma-Lab | 4 | 65 | 1,363,939 | 40,707 | 1,323,232 |
-| drivas-lab | 5 | 57 | 1,023,984 | 426,050 | 597,934 |
-| PMBB-Informatics-and-Genomics | 20 | 565 | 4,241,026 | 142,239 | 4,098,787 |
+| **ALL** | 30 | 707 | 6,758,312 | 610,839 | 6,147,473 |
+| Setia-Verma-Lab | 1 | 4 | 106,760 | 115 | 106,645 |
+| Verma-Lab | 4 | 69 | 1,364,243 | 40,755 | 1,323,488 |
+| drivas-lab | 5 | 65 | 1,045,993 | 426,141 | 619,852 |
+| PMBB-Informatics-and-Genomics | 20 | 569 | 4,241,316 | 143,828 | 4,097,488 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +76,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-08
+**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-15
 
 ---
 
@@ -93,15 +93,15 @@ testing for dnanexus nextflow pipelines
 
 #### PMBB-Informatics-and-Genomics
 
-### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
-saige family toolkit for nextflow pipelines
-**Python** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-06-15
+### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
+phenotyping pipeline
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-22
 
 ---
 
-### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
-phenotyping pipeline
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-15
+### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
+saige family toolkit for nextflow pipelines
+**Python** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-06-15
 
 ---
 
@@ -240,9 +240,9 @@ Source code for Endo_RuleBased_Phenotyping
 
 #### Verma-Lab
 
-### [HCC_Analysis_Plan](https://github.com/Verma-Lab/HCC_Analysis_Plan)
-This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-04-23
+### [hcc-rare-variant-analysis](https://github.com/Verma-Lab/hcc-rare-variant-analysis)
+This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple biobanks. 
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-19
 
 ---
 

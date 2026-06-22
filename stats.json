@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-15T08:55:58Z",
-  "activity_since": "2025-06-15T08:49:06.333099+00:00",
+  "updated_at": "2026-06-22T08:54:02Z",
+  "activity_since": "2025-06-22T08:49:27.835395+00:00",
   "public": {
     "repo_count": 49,
     "repos": [
@@ -15,7 +15,7 @@
         "languages": {
           "Python": 17582
         },
-        "pushed_at": "2026-06-08T07:28:06Z",
+        "pushed_at": "2026-06-15T08:55:59Z",
         "topics": [],
         "archived": false,
         "owner": "personal"
@@ -348,10 +348,10 @@
         "owner": "Setia-Verma-Lab"
       },
       {
-        "name": "HCC_Analysis_Plan",
-        "full_name": "Verma-Lab/HCC_Analysis_Plan",
-        "description": "This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple cohorts. The study has two phases: I: Six-gene burden association analysis and II: Exome-wide association analysis",
-        "url": "https://github.com/Verma-Lab/HCC_Analysis_Plan",
+        "name": "hcc-rare-variant-analysis",
+        "full_name": "Verma-Lab/hcc-rare-variant-analysis",
+        "description": "This project aims to investigate genetic associations with hepatocellular carcinoma (HCC) using whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from multiple biobanks. ",
+        "url": "https://github.com/Verma-Lab/hcc-rare-variant-analysis",
         "stars": 0,
         "forks": 0,
         "primary_lang": "Python",
@@ -359,7 +359,7 @@
           "Python": 143360,
           "Jupyter Notebook": 8427
         },
-        "pushed_at": "2026-04-23T18:43:29Z",
+        "pushed_at": "2026-06-19T13:09:51Z",
         "topics": [],
         "archived": false,
         "owner": "Verma-Lab"
@@ -565,6 +565,24 @@
         "owner": "drivas-lab"
       },
       {
+        "name": "pmbb-nf-toolkit-phenotyping",
+        "full_name": "PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping",
+        "description": "phenotyping pipeline",
+        "url": "https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping",
+        "stars": 0,
+        "forks": 0,
+        "primary_lang": "Python",
+        "languages": {
+          "Python": 238601,
+          "Nextflow": 26302,
+          "Dockerfile": 842
+        },
+        "pushed_at": "2026-06-22T08:20:09Z",
+        "topics": [],
+        "archived": false,
+        "owner": "PMBB-Informatics-and-Genomics"
+      },
+      {
         "name": "pmbb-nf-toolkit-saige-family",
         "full_name": "PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family",
         "description": "saige family toolkit for nextflow pipelines",
@@ -577,24 +595,6 @@
           "Nextflow": 233018
         },
         "pushed_at": "2026-06-15T08:49:07Z",
-        "topics": [],
-        "archived": false,
-        "owner": "PMBB-Informatics-and-Genomics"
-      },
-      {
-        "name": "pmbb-nf-toolkit-phenotyping",
-        "full_name": "PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping",
-        "description": "phenotyping pipeline",
-        "url": "https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping",
-        "stars": 0,
-        "forks": 0,
-        "primary_lang": "Python",
-        "languages": {
-          "Python": 227571,
-          "Nextflow": 26401,
-          "Dockerfile": 842
-        },
-        "pushed_at": "2026-06-15T08:19:42Z",
         "topics": [],
         "archived": false,
         "owner": "PMBB-Informatics-and-Genomics"
@@ -824,46 +824,46 @@
   "private_orgs": {
     "Setia-Verma-Lab": {
       "repos_touched": 1,
-      "total_commits": 6,
-      "lines_added": 111309,
+      "total_commits": 4,
+      "lines_added": 106760,
       "lines_deleted": 115,
-      "net_lines": 111194,
+      "net_lines": 106645,
       "loc_by_lang": {}
     },
     "Verma-Lab": {
       "repos_touched": 4,
-      "total_commits": 65,
-      "lines_added": 1363939,
-      "lines_deleted": 40707,
-      "net_lines": 1323232,
+      "total_commits": 69,
+      "lines_added": 1364243,
+      "lines_deleted": 40755,
+      "net_lines": 1323488,
       "loc_by_lang": {
-        "Nextflow": 223065,
+        "Nextflow": 225965,
         "Python": 180656,
         "R": 112102
       }
     },
     "drivas-lab": {
       "repos_touched": 5,
-      "total_commits": 57,
-      "lines_added": 1023984,
-      "lines_deleted": 426050,
-      "net_lines": 597934,
+      "total_commits": 65,
+      "lines_added": 1045993,
+      "lines_deleted": 426141,
+      "net_lines": 619852,
       "loc_by_lang": {
-        "Python": 156765,
-        "Nextflow": 60588,
+        "Python": 162377,
+        "Nextflow": 64328,
         "Dockerfile": 6781
       }
     },
     "PMBB-Informatics-and-Genomics": {
       "repos_touched": 20,
-      "total_commits": 565,
-      "lines_added": 4241026,
-      "lines_deleted": 142239,
-      "net_lines": 4098787,
+      "total_commits": 569,
+      "lines_added": 4241316,
+      "lines_deleted": 143828,
+      "net_lines": 4097488,
       "loc_by_lang": {
-        "Python": 3493758,
-        "Nextflow": 1889990,
-        "Dockerfile": 37697,
+        "Python": 3554290,
+        "Nextflow": 1910957,
+        "Dockerfile": 39416,
         "JavaScript": 34876,
         "R": 33072,
         "Awk": 508
@@ -871,15 +871,15 @@
     },
     "ALL": {
       "repos_touched": 30,
-      "total_commits": 693,
-      "lines_added": 6740258,
-      "lines_deleted": 609111,
-      "net_lines": 6131147,
+      "total_commits": 707,
+      "lines_added": 6758312,
+      "lines_deleted": 610839,
+      "net_lines": 6147473,
       "loc_by_lang": {
-        "Python": 3831179,
-        "Nextflow": 2173643,
+        "Python": 3897323,
+        "Nextflow": 2201250,
         "R": 145174,
-        "Dockerfile": 44478,
+        "Dockerfile": 46197,
         "JavaScript": 34876,
         "Awk": 508
       }
@@ -888,17 +888,17 @@
   "languages_public_ranked": [
     {
       "lang": "Python",
-      "bytes": 2386896,
-      "pct": 48.1
+      "bytes": 2397926,
+      "pct": 48.2
     },
     {
       "lang": "JavaScript",
       "bytes": 1403969,
-      "pct": 28.3
+      "pct": 28.2
     },
     {
       "lang": "Nextflow",
-      "bytes": 600225,
+      "bytes": 600126,
       "pct": 12.1
     },
     {
@@ -909,7 +909,7 @@
     {
       "lang": "R",
       "bytes": 181468,
-      "pct": 3.7
+      "pct": 3.6
     },
     {
       "lang": "Perl 6",

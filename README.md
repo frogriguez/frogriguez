@@ -28,15 +28,15 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 > Stats are broken down by organization below the summary table.
 
 <!-- STATS_START -->
-*Last updated: 2026-06-22 · Rolling 12-month window*
+*Last updated: 2026-06-29 · Rolling 12-month window*
 
 | | Public repos | Private org repos |
 |---|---|---|
-| **Repos / repos touched** | 49 | 30 |
-| **Commits** | — | 707 |
-| **Lines added** | — | 6,758,312 |
-| **Lines deleted** | — | 610,839 |
-| **Net lines** | — | 6,147,473 |
+| **Repos / repos touched** | 49 | 31 |
+| **Commits** | — | 709 |
+| **Lines added** | — | 6,785,850 |
+| **Lines deleted** | — | 610,742 |
+| **Net lines** | — | 6,175,108 |
 | **Top language** | Python | Python |
 <!-- STATS_END -->
 
@@ -45,11 +45,12 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- LANG_CHART_START -->
 | Language | Share | |
 |---|---|---|
-| Python | 61.6% | `██████████████████░░░░░░░░░░░░` |
-| Nextflow | 34.8% | `██████████░░░░░░░░░░░░░░░░░░░░` |
-| R | 2.3% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| Python | 60.6% | `██████████████████░░░░░░░░░░░░` |
+| Nextflow | 34.0% | `██████████░░░░░░░░░░░░░░░░░░░░` |
+| R | 2.2% | `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| TypeScript | 1.6% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| JavaScript | 0.9% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Dockerfile | 0.7% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
-| JavaScript | 0.6% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | Awk | 0.0% | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 <!-- LANG_CHART_END -->
 
@@ -58,11 +59,11 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 <!-- ORG_BREAKDOWN_START -->
 | Organization | Repos touched | Commits | Lines added | Lines deleted | Net lines |
 |---|---|---|---|---|---|
-| **ALL** | 30 | 707 | 6,758,312 | 610,839 | 6,147,473 |
+| **ALL** | 31 | 709 | 6,785,850 | 610,742 | 6,175,108 |
 | Setia-Verma-Lab | 1 | 4 | 106,760 | 115 | 106,645 |
-| Verma-Lab | 4 | 69 | 1,364,243 | 40,755 | 1,323,488 |
-| drivas-lab | 5 | 65 | 1,045,993 | 426,141 | 619,852 |
-| PMBB-Informatics-and-Genomics | 20 | 569 | 4,241,316 | 143,828 | 4,097,488 |
+| Verma-Lab | 5 | 76 | 1,387,190 | 40,769 | 1,346,421 |
+| drivas-lab | 5 | 70 | 1,047,179 | 426,175 | 621,004 |
+| PMBB-Informatics-and-Genomics | 20 | 559 | 4,244,721 | 143,683 | 4,101,038 |
 <!-- ORG_BREAKDOWN_END -->
 
 ---
@@ -76,7 +77,7 @@ I build production pipelines for clinical informatics — variant calling, NGS Q
 
 ### [frogriguez](https://github.com/frogriguez/frogriguez)
 repo for my github profile
-**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-15
+**Python** &nbsp;·&nbsp; ★ 1 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-22
 
 ---
 
@@ -93,15 +94,15 @@ testing for dnanexus nextflow pipelines
 
 #### PMBB-Informatics-and-Genomics
 
-### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
-phenotyping pipeline
-**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-22
+### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
+saige family toolkit for nextflow pipelines
+**Python** &nbsp;·&nbsp; ★ 4 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-06-26
 
 ---
 
-### [pmbb-nf-toolkit-saige-family](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
-saige family toolkit for nextflow pipelines
-**Python** &nbsp;·&nbsp; ★ 3 &nbsp;·&nbsp; ⑂ 4 &nbsp;·&nbsp; last push 2026-06-15
+### [pmbb-nf-toolkit-phenotyping](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping)
+phenotyping pipeline
+**Python** &nbsp;·&nbsp; ★ 0 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-06-22
 
 ---
 
@@ -119,7 +120,7 @@ Association Test Manhattan Plotting Package
 
 ### [pmbb-geno-pheno-toolkit](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit)
 This repository serves as a landing page of our repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:  Links to repos, Example config files, and Set-up instructions
-**Nextflow** &nbsp;·&nbsp; ★ 5 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-19
+**Nextflow** &nbsp;·&nbsp; ★ 8 &nbsp;·&nbsp; ⑂ 0 &nbsp;·&nbsp; last push 2026-05-19
 
 ---
 
